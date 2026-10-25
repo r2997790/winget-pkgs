@@ -1,0 +1,16 @@
+# Created with scripts/winget_manifest.py
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: RSWDigital.ScreenMarkup
+PackageVersion: 0.3.16
+PackageLocale: fr
+Publisher: "RSW Digital Ltd"
+PackageName: "Screen Markup"
+License: Proprietary
+ShortDescription: "Dessinez sur l'écran de votre PC depuis un mobile ou une tablette, ou servez-vous du mobile comme souris. Rien à installer sur le mobile."
+Description: |-
+  Screen Markup est un programme Windows et une page web qui fonctionnent ensemble. Le programme affiche un court code ; saisissez-le sur votre mobile ou votre tablette et vous pouvez dessiner par-dessus tout l'écran du PC avec un stylo, un surligneur, des formes, des flèches et du texte, ou utiliser votre doigt comme souris du PC. Une image en direct de l'écran est envoyée à l'appareil pour montrer précisément ce dont vous parlez. Rien à installer sur le mobile, cela fonctionne sur n'importe quel réseau, et rien de ce que vous dessinez n'est enregistré.
+
+  Gratuit pendant 7 jours à partir du premier lancement ; une licence est ensuite nécessaire. Windows 10 et 11, 64 bits. L'installation se fait pour l'utilisateur actuel, sans droits d'administrateur.
+ManifestType: locale
+ManifestVersion: 1.12.0

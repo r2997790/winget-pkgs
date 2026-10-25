@@ -1,0 +1,39 @@
+# Created with scripts/winget_manifest.py
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: RSWDigital.ScreenMarkup
+PackageVersion: 0.3.16
+PackageLocale: en-GB
+Publisher: "RSW Digital Ltd"
+PublisherUrl: https://screenmarkup.com/
+PublisherSupportUrl: https://screenmarkup.com/support/
+PrivacyUrl: https://screenmarkup.com/privacy/
+PackageName: "Screen Markup"
+PackageUrl: https://screenmarkup.com/
+License: Proprietary
+LicenseUrl: https://screenmarkup.com/terms/
+Copyright: "Copyright (c) RSW Digital Ltd"
+ShortDescription: "Draw on your PC screen from a phone or tablet, or use the phone as the PC's mouse. Nothing to install on the phone."
+Description: |-
+  Screen Markup is a Windows program and a web page that work as a pair. The program shows a short code; type it on your phone or tablet and you can draw over everything on the PC screen with a pen, highlighter, shapes, arrows and text, or use your finger as the PC's mouse. A live picture of the screen is sent to the device so you can point at what you mean. Nothing is installed on the phone, it works on any network, and nothing you draw is saved.
+
+  Free for 7 days from the first run; a licence is needed after that. Windows 10 and 11, 64-bit. It installs for the current user only, without administrator rights.
+Moniker: screenmarkup
+Tags:
+- screen-annotation
+- annotation
+- screen-drawing
+- presentation
+- teaching
+- remote-mouse
+- stylus
+- tablet
+- phone
+ReleaseNotes: "Pencil: the connection is no longer dropped in the middle of writing; a late release of the last line cannot cut the next one short; pictures wait longer so ink is never held up"
+PurchaseUrl: https://screenmarkup.com/#pricing
+InstallationNotes: "Installs for the current user only (no administrator rights) and opens Screen Markup when it is done. It shows a code: type it on the phone or tablet at the address it shows. Free for 7 days, then £10 + VAT a year."
+Documentations:
+- DocumentLabel: Support
+  DocumentUrl: https://screenmarkup.com/support/
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
