@@ -1,0 +1,48 @@
+# Created with tools/winget_manifest.py
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: RSWDigital.VCamStudio
+PackageVersion: 0.5.7
+InstallerLocale: en-GB
+InstallerType: exe
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: "/S"
+  SilentWithProgress: "/S"
+UpgradeBehavior: install
+ElevationRequirement: elevatesSelf
+ExpectedReturnCodes:
+- InstallerReturnCode: 2
+  ReturnResponse: invalidParameter
+- InstallerReturnCode: 10
+  ReturnResponse: systemNotSupported
+- InstallerReturnCode: 11
+  ReturnResponse: systemNotSupported
+- InstallerReturnCode: 30
+  ReturnResponse: cancelledByUser
+- InstallerReturnCode: 40
+  ReturnResponse: cancelledByUser
+- InstallerReturnCode: 41
+  ReturnResponse: packageInUse
+Commands:
+- vcam
+ReleaseDate: 2026-10-25
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.vcam.studio/downloads/vcam-setup-0.5.7.exe
+  InstallerSha256: 16062EC2053B2D45128543D6F72881E8E4DB6E0D6B26F1B0F2052B2183C4D650
+  MinimumOSVersion: 10.0.22000.0
+  UnsupportedOSArchitectures:
+  - arm64
+  ProductCode: VCamRS
+  AppsAndFeaturesEntries:
+  - DisplayName: "VCam Studio"
+    Publisher: "RSW Digital Ltd"
+    DisplayVersion: "0.5.7"
+    ProductCode: VCamRS
+ManifestType: installer
+ManifestVersion: 1.12.0

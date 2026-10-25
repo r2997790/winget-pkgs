@@ -1,0 +1,16 @@
+# Created with tools/winget_manifest.py
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: RSWDigital.VCamStudio
+PackageVersion: 0.5.7
+PackageLocale: fr
+Publisher: "RSW Digital Ltd"
+PackageName: "VCam Studio"
+License: Proprietary
+ShortDescription: "Caméra virtuelle pour Windows 11 : transformez votre webcam, votre écran et vos diapositives en scènes en direct pour Zoom, Teams et Meet."
+Description: |-
+  VCam Studio ajoute une caméra virtuelle à Windows 11 et vous permet de composer des scènes en direct à partir de votre webcam, de votre écran, de diapositives, d'images et de calques, puis de les montrer dans Zoom, Teams, Meet ou toute application qui peut utiliser une caméra. Il peut flouter l'arrière-plan, ajouter des bandeaux et de la musique, se piloter depuis un téléphone, un Stream Deck, une ligne de commande (vcam) ou un assistant IA, et il contient son propre guide.
+
+  Essai gratuit pendant 20 heures d'utilisation ; une clé de licence est ensuite nécessaire. Windows 11 (build 22000 ou supérieur), Intel ou AMD 64 bits. Windows demande une fois l'accord de l'administrateur pour enregistrer la caméra.
+ManifestType: locale
+ManifestVersion: 1.12.0

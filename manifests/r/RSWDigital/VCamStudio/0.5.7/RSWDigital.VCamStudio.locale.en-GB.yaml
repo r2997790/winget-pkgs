@@ -1,0 +1,43 @@
+# Created with tools/winget_manifest.py
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: RSWDigital.VCamStudio
+PackageVersion: 0.5.7
+PackageLocale: en-GB
+Publisher: "RSW Digital Ltd"
+PublisherUrl: https://www.vcam.studio/
+PrivacyUrl: https://www.vcam.studio/privacy/
+PackageName: "VCam Studio"
+PackageUrl: https://www.vcam.studio/
+License: Proprietary
+LicenseUrl: https://www.vcam.studio/terms/
+Copyright: "Copyright (c) RSW Digital Ltd"
+ShortDescription: "Virtual camera for Windows 11: turn your webcam, screen and slides into live scenes for Zoom, Teams and Meet."
+Description: |-
+  VCam Studio adds a virtual camera to Windows 11 and lets you build live scenes from your webcam, your screen, slides, pictures and overlays, then show them in Zoom, Teams, Meet or any other app that can use a camera. It can blur your background, add lower thirds and music, be driven from a phone, a Stream Deck, a command line (vcam) or an AI assistant, and carries its own guide.
+
+  Free to try for 20 hours of use; a licence key is needed after that. Windows 11 (build 22000 or newer), 64-bit Intel or AMD. Windows asks for administrator approval once, to register the camera.
+Moniker: vcamstudio
+Tags:
+- virtual-camera
+- virtual-webcam
+- webcam
+- video-call
+- live-video
+- streaming
+- zoom
+- microsoft-teams
+- google-meet
+- presentation
+- background-blur
+- screen-share
+ReleaseNotes: "A much better guide: 90 pictures and close-ups of the real app, checked step by step against the program, in all 16 languages. The assistant can now take pictures and documents you paste, drop or attach, fetch pictures from the web, ask you questions with choices, and act without asking if you switch that on (deleting always asks). Ctrl+J opens it. A notice with a Stop button shows while the AI is using the window. Fixes: the shortcut list showed the wrong key for the Add menu, and a caption-model check that could miss a rewritten file."
+PurchaseUrl: https://www.vcam.studio/pricing/
+InstallationNotes: "Needs Windows 11 (build 22000 or newer) on 64-bit Intel or AMD. Windows shows one administrator prompt, to register the camera. Then pick \"VCam Studio Camera\" in Zoom, Teams or Meet. Free to try for 20 hours of use."
+Documentations:
+- DocumentLabel: Guides
+  DocumentUrl: https://www.vcam.studio/guides/
+- DocumentLabel: Features
+  DocumentUrl: https://www.vcam.studio/features/
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
